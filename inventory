@@ -1,0 +1,17 @@
+[dev]
+lab-awx05.ucl.es
+
+[test]
+lab-awx05.ucl.es
+
+[proxy]
+lab-awx05.ucl.es
+
+[prod]
+lab-awx05.ucl.es
+
+[webservers:children]
+dev
+test
+proxy
+prod
